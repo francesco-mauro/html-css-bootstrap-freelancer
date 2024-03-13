@@ -1,3 +1,16 @@
+/* Commons +++++++++++++++++++++++++++++ */
+
 .ms_container{
     border: 1px solid black;
+}
+
+
+/* <!-- header +++++++++++++++++++++++++++++ --> */
+
+.ms_header{
+    background-color: lightblue;
+}
+
+.ms_header-list{
+    list-style-type: none;
 }
