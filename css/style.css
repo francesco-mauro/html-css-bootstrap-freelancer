@@ -4,6 +4,11 @@
     border: 1px solid black;
 }
 
+.ms_card{
+    border: 1px solid black;
+}
+
+
 
 /* <!-- header +++++++++++++++++++++++++++++ --> */
 
@@ -20,5 +25,5 @@
 }
 
 .ms_portfolio{
-    
+
 }
