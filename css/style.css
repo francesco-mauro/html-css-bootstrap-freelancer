@@ -19,6 +19,21 @@
     background-color: green;
 }
 
+.ms_bg_grey {
+    background-color: grey;
+
+    /* debug */
+    min-height: 100px;
+}
+
+.ms_bg_lightgrey {
+    background-color: lightgray;
+    
+    /* debug */
+    min-height: 100px;
+}
+
+
 
 /* <!-- header +++++++++++++++++++++++++++++ --> */
 
