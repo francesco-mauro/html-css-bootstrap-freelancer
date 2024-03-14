@@ -1,7 +1,12 @@
 /* Commons +++++++++++++++++++++++++++++ */
 
 .ms_container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
     border: 1px solid black;
+    /* debug */
+    min-height: 40px;
 }
 
 .ms_card{
