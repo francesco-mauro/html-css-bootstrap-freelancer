@@ -8,6 +8,11 @@
     border: 1px solid black;
 }
 
+/* Backgrounds ++++++++++++++++++++++ */
+
+.ms_bg_green {
+    background-color: green;
+}
 
 
 /* <!-- header +++++++++++++++++++++++++++++ --> */
@@ -18,6 +23,13 @@
 
 .ms_header-list{
     list-style-type: none;
+}
+
+/* hero  */
+
+.ms_hero_img{
+    width: 20%;
+    min-width: 150px;
 }
 
 .ms_hero{
