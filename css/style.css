@@ -10,7 +10,7 @@
 
 /* Commons +++++++++++++++++++++++++++++ */
 
-.ms_container{
+.ms_container {
     width: 70%;
     max-width: 900px;
     margin: 0 auto;
@@ -19,14 +19,19 @@
     min-height: 40px;
 }
 
-.ms_card{
+.ms_card {
     border: 1px solid black;
 }
 
-.ms_star-line{
+.ms_star-line {
     align-self: center;
     width: 10%;
     height: 2px;
+}
+
+
+.form-floating>.ms_text-area {
+    height: 100px;
 }
 
 /* Backgrounds ++++++++++++++++++++++ */
@@ -44,7 +49,7 @@
 
 .ms_bg_lightgrey {
     background-color: var(--Bootstrap-dark-blue);
-    
+
     /* debug */
     min-height: 100px;
 }
@@ -53,33 +58,44 @@
 
 /* <!-- header +++++++++++++++++++++++++++++ --> */
 
-.ms_header{
+.ms_header {
     background-color: var(--Bootstrap-dark-green)
 }
 
-.ms_header-list{
+.ms_header-list {
     list-style-type: none;
 }
 
 /* hero  */
 
-.ms_hero_img{
+.ms_hero_img {
     width: 20%;
     min-width: 150px;
 }
 
-.ms_hero{
+.ms_hero {
     background-color: var(--Bootstrap-light-green);
 }
 
-.ms_portfolio{
+.ms_portfolio {}
 
+/* <!-- form +++++++++++++++++++++++++++++ --> */
+
+.ms_form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 
+.ms_form-control:focus {
+    box-shadow: unset;
+    border-bottom-color: var(--Bootstrap-light-green);
+}
+
 /* <!-- <footer> +++++++++++++++++++++++++++++ --> */
 
-.ms_icons{
+.ms_icons {
     text-decoration: none;
     display: flex;
     justify-content: center;
